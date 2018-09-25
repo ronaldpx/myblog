@@ -1,0 +1,7 @@
+{% extends 'css/index.html' %}
+{%  block inicio %}
+{% for modelo in datos %}
+<h1>Publicaciones</h1>
+<p>{{modelo.title}}</p>
+{% endfor %}
+{% endblock %}
